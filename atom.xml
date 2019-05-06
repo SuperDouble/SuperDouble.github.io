@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-03T08:09:14.282Z</updated>
+  <updated>2019-05-06T09:30:04.173Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,19 +21,18 @@
     <link href="http://yoursite.com/2019/05/03/python%E5%9F%BA%E7%A1%80%E5%92%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     <id>http://yoursite.com/2019/05/03/python基础和环境搭建/</id>
     <published>2019-05-03T08:07:24.000Z</published>
-    <updated>2019-05-03T08:09:14.282Z</updated>
+    <updated>2019-05-06T09:30:04.173Z</updated>
     
-    <content type="html"><![CDATA[<p> <em>前言：python基础入门学习及环境搭建</em></p><p><strong>First</strong></p><p><strong>Second</strong></p><p><strong>Third</strong></p><p><strong>Last</strong></p>]]></content>
+    <content type="html"><![CDATA[<p> <em>前言：python基础入门学习及环境搭建</em></p><p><strong>First：linux基础入门学习及常用命令</strong></p><p><strong>Second</strong></p><p><strong>Third</strong></p><p><strong>Last</strong></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt; &lt;em&gt;前言：python基础入门学习及环境搭建&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First：linux基础入门学习及常用命令&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Second&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Third&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;
+&lt;p&gt;&lt;strong&gt;Third&lt;/strong
       
     
     </summary>
