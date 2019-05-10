@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-06T13:24:34.203Z</updated>
+  <updated>2019-05-10T11:02:46.262Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,23 +21,23 @@
     <link href="http://yoursite.com/2019/05/06/linux%E5%9F%BA%E7%A1%80%E5%92%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://yoursite.com/2019/05/06/linux基础和常用命令/</id>
     <published>2019-05-06T13:23:13.000Z</published>
-    <updated>2019-05-06T13:24:34.203Z</updated>
+    <updated>2019-05-10T11:02:46.262Z</updated>
     
-    <content type="html"><![CDATA[<p><em>前言：python基础入门学习及环境搭建</em></p><p><strong>First</strong></p><p><strong>Second</strong></p><p><strong>Third</strong></p><p><strong>Last</strong></p>]]></content>
+    <content type="html"><![CDATA[<h6 id="前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正"><a href="#前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正" class="headerlink" title="前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正."></a>前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正.</h6><hr><h4 id="First：选择ubuntu"><a href="#First：选择ubuntu" class="headerlink" title="First：选择ubuntu"></a><strong>First：选择ubuntu</strong></h4><p>1.首先之前也有安装Git,在Git bash中来键入linux命令，但是Git bash中linux的有些命令还是无法执行，所以后面选择安装虚拟机，在虚拟机中安装Ubuntu来体验linux的命令操作。<br>通过命令来查看系统版本 cat /etc/lsb-release<br><img src="/2019/05/06/linux基础和常用命令/1.PNG" alt></p><h4 id="second：linux常用的6个文件和目录命令"><a href="#second：linux常用的6个文件和目录命令" class="headerlink" title="second：linux常用的6个文件和目录命令"></a><strong>second：linux常用的6个文件和目录命令</strong></h4><p>1.ls命令<br>    1.ls命令是把文件夹下的目录给列出来<br>    <img src="/2019/05/06/linux基础和常用命令/2.PNG" alt><br>    2.如果要查看全部的目录，包括隐藏目录的信息可以用命令LS -a，设置隐藏文件的显示可以在网上查到.<br>    3.如果要把目录下面的信息更加详细的展示出来，可以用命令 ls -l<br>    会把详细信息给展示出来。<br>    4.ls -l -h 命令会把详细的目录信息和大小所展示出来。但是如果ls -h是没有任何效果的，也可以采用相同的效果命令，连到一块，ls -lh,或者ls -lha<br>    <img src="/2019/05/06/linux基础和常用命令/3.PNG" alt><br>       ls命令的拓展：<br>          ls通配符的使用(如果文件很多的情况下)<br>          1.* 代表任意个数个字符<br>          2.? 代表任意一个字符<br>          3.中括号[]是匹配字符组，可以把符合的全部展示出来<br>          4.中括号中还提供-号的操作，可以把比如这个区间的全部展示出来<br>  <img src="/2019/05/06/linux基础和常用命令/4.PNG" alt><br>  5.其中tree命令可以很方便的把目录结构很好的展示出来<br>    <img src="/2019/05/06/linux基础和常用命令/5.PNG" alt><br>2.cat命令<br>    1.cat 文件名,可以查看文件的内容，<br>    cat a1.py,如果文件当中没有东西，可以通过gedit a1.py来打开编辑器编辑其中的内容<br>      <img src="/2019/05/06/linux基础和常用命令/6.PNG" alt><br>      <img src="/2019/05/06/linux基础和常用命令/8.PNG" alt><br>    2.cat -n 文件名，可以把文件的所有行号展示出来，cat -b 文件名，可以把文件的有内容的行号展示出来<br>    <img src="/2019/05/06/linux基础和常用命令/9.PNG" alt><br>    3.cat命令和more命令的区别，cat命令显示的文件内容是全部，而当文件内容很多时，more命令不用显示完全。<br>3.touch命令和mkdir命令和rm命令<br>     1.touch 文件名 可以创建文件<br>     2.mkdir 文件夹 可以创建文件夹<br>     3.rm 文件或者rm -r目录<br>     <img src="/2019/05/06/linux基础和常用命令/10.PNG" alt><br>     4.如果要创建的文件夹是递归形式，比如建立一个c文件夹，在c文件夹下创建b文件夹,再在其中创建d文件夹 可以通过-p<br>     mkdir -p c/b/d<br>     <img src="/2019/05/06/linux基础和常用命令/11.PNG" alt><br> 4.cp命令<br>    1.cp拷贝文件，cp 源文件 目标文件<br>    <img src="/2019/05/06/linux基础和常用命令/12.PNG" alt><br>    2.cp复制文件夹，cp -r 源文件夹 目标文件夹<br>   <img src="/2019/05/06/linux基础和常用命令/13.PNG" alt><br> 5.mv命令<br>      1.mv进行文件和目录的移动<br>      mv 源文件 目标文件<br>      mv 源文件夹 目标文件夹<br>      mv -i 源文件夹 目标文件夹 会出现提示是否覆盖<br>      <img src="/2019/05/06/linux基础和常用命令/14.PNG" alt>  </p><p>6.grep命令<br>       1.grep命令是强大的文本搜索<br>       2.grep 1 a2.txt 查找a2.txt文本中含1的字符<br>       3.grep命令的模式查找，行首行尾命令（不知道的时候查）<br>               1.grep ^1 a1.txt  行首为1的匹配<br>               2.grep 2$ a1.txt   行尾为1的匹配<br>         <img src="/2019/05/06/linux基础和常用命令/15.PNG" alt>  </p><h4 id="Third：远程管理命令"><a href="#Third：远程管理命令" class="headerlink" title="Third：远程管理命令"></a><strong>Third：远程管理命令</strong></h4><p>1.关机和重启命令<br>  1.关机命令<br>   shutdown<br>   shutdown -c 取消关机命令<br>   shutdown -r now 重新立刻启动电脑<br>     <img src="/2019/05/06/linux基础和常用命令/16.PNG" alt><br>2.网卡和ip地址<br>  1.ping 地址 按下crtl+c可以退出来<br>  2.ifconfig 显示网卡和ip地址信息<br>  3.ifconfig |grep inet<br>    <img src="/2019/05/06/linux基础和常用命令/17.PNG" alt><br>3.ssh<br>     1.ssh安全外壳协议,默认端口是22<br>     2.查看ssh安装成功没有<br>     <img src="/2019/05/06/linux基础和常用命令/18.PNG" alt><br>     3.连接远程控制服务器<br>     ssh -p 端口 用户名@地址<br>     <img src="/2019/05/06/linux基础和常用命令/19.PNG" alt><br>     最后就可以对远程服务器进行操作<br>4.chmod命令chgrp命令chwon命令<br>    1.chown修改拥有者<br>    2.chgrp修改组<br>    3.chmod修改权限<br>    4.chmod 754 test (7代表可读可写可执行，5代表可执行可写，4代表可写)<br>               4 2 1 对应  r w x<br>              修改test文件夹的权限<br>              <img src="/2019/05/06/linux基础和常用命令/20.PNG" alt> </p><p>   5.如果要修改目录下所有文件的权限，可以加 -R</p><h4 id="Four-系统信息常见命令"><a href="#Four-系统信息常见命令" class="headerlink" title="Four:系统信息常见命令"></a><strong>Four:系统信息常见命令</strong></h4><p>1.时间和日期<br>               1.date 查询系统时间<br>               2.cal   calendar查看日历，-y选项可以查看一年的日历<br>                <img src="/2019/05/06/linux基础和常用命令/21.PNG" alt><br>2.磁盘信息(-h以人性化方式显示)<br>              1.df -h     disk free显示磁盘剩余空间，按下top后可以将从大到小排列，如果安装了htop的话可以以彩色形式显示<br>               <img src="/2019/05/06/linux基础和常用命令/22.PNG" alt><br>               <img src="/2019/05/06/linux基础和常用命令/23.PNG" alt><br>              2.du -h[目录名]  disk usage 显示目录下文件大小</p><p>3.进程信息命令<br>         1.ps  aux 进程信息查看,按下top,从上向下根据占用量显示<br>           a:显示终端上的所有进程，包括其他用户进程<br>           u:显示进程的详细状况<br>           x:显示没有控制终端的进程<br>           <img src="/2019/05/06/linux基础和常用命令/24.PNG" alt><br>          2.kill PID 终止某个进程，其中PID代表进程号<br>          强制终止某个进程，kill -9 PID</p><p>2.查看文件的命令<br>   1.find [路径] -name “<em>py</em>“<br>   <img src="/2019/05/06/linux基础和常用命令/25.PNG" alt> </p><p>3.打包和解包的命令<br>                   1.打包  tar -cvf 打包文件.tar  被打包的文件/路径…<br>                   <img src="/2019/05/06/linux基础和常用命令/26.PNG" alt><br>                   2.解包文件  tar -xvf 打包文件.tar<br>                   <img src="/2019/05/06/linux基础和常用命令/27.PNG" alt> </p><p>4.压缩和解压缩的命令<br>                   1.tar只负责打包文件，但不压缩，用gzip压缩tar打包后的文件<br>其扩展名为XXX.tar.gz，只需多加-z<br>                   2.tar -zcvf 打包文件.tar.gz 被压缩的文件/路径<br>                    <img src="/2019/05/06/linux基础和常用命令/28.PNG" alt><br>                   3.tar -zxvf 打包文件.tar.gz<br>                     tar -zxvf py.tar.gz -C 指定目录<br>                     <img src="/2019/05/06/linux基础和常用命令/29.PNG" alt><br>                     <img src="/2019/05/06/linux基础和常用命令/30.PNG" alt> </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;em&gt;前言：python基础入门学习及环境搭建&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Second&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Third&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;L
+        &lt;h6 id=&quot;前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正&quot;&gt;&lt;a href=&quot;#前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指
       
     
     </summary>
     
+      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
