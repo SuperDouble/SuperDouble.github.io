@@ -16,7 +16,7 @@
 <meta property="og:description" content="前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。第一步：安装环境1.首先安装node.js       安装好后可以通过命令node -v和命令 npm -v来查看安装的node的版本和包管理器的版本，在包管理器安装完成后，因为这个速度比较慢，我们可以选择安装cnpm，这是淘宝的镜像在国内比较快,通过命令       $ npm install -g cnpm –reg">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/og_image.png">
-<meta property="og:updated_time" content="2019-05-08T04:50:03.545Z">
+<meta property="og:updated_time" content="2019-08-03T08:47:03.139Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Github搭建个人博客网站">
 <meta name="twitter:description" content="前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。第一步：安装环境1.首先安装node.js       安装好后可以通过命令node -v和命令 npm -v来查看安装的node的版本和包管理器的版本，在包管理器安装完成后，因为这个速度比较慢，我们可以选择安装cnpm，这是淘宝的镜像在国内比较快,通过命令       $ npm install -g cnpm –reg">
@@ -157,7 +157,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    6 minutes read (About 897 words)
+                    6 minutes read (About 898 words)
                 </span>
                 
                 
@@ -170,7 +170,7 @@
             
         </h1>
         <div class="content">
-            <h6 id="前言：Hexo-Github搭载个人博客框架还是比较火的，主要分为如下四步。"><a href="#前言：Hexo-Github搭载个人博客框架还是比较火的，主要分为如下四步。" class="headerlink" title="前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。"></a>前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。</h6><h4 id="第一步：安装环境"><a href="#第一步：安装环境" class="headerlink" title="第一步：安装环境"></a><strong>第一步：安装环境</strong></h4><p>1.首先安装node.js<br>       安装好后可以通过命令node -v和命令 npm -v来查看安装的node的版本和包管理器的版本，在包管理器安装完成后，因为这个速度比较慢，我们可以选择安装cnpm，这是淘宝的镜像在国内比较快,通过命令<br>       $ npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>        来进行安装<br>       <img src="/2019/05/03/Hexo-Github搭建个人博客框架记录/anzhuang1.PNG" alt></p>
+            <h6 id="前言：Hexo-Github搭载个人博客框架还是比较火的，主要分为如下四步。"><a href="#前言：Hexo-Github搭载个人博客框架还是比较火的，主要分为如下四步。" class="headerlink" title="前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。"></a>前言：Hexo+Github搭载个人博客框架还是比较火的，主要分为如下四步。</h6><h4 id="第一步：安装环境"><a href="#第一步：安装环境" class="headerlink" title="第一步：安装环境"></a><strong>第一步：安装环境</strong></h4><p>1.首先安装node.js<br>       安装好后可以通过命令node -v和命令 npm -v来查看安装的node的版本和包管理器的版本，在包管理器安装完成后，因为这个速度比较慢，我们可以选择安装cnpm，这是淘宝的镜像在国内比较快,通过命令<br>       $ npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>        来进行安装<br>       <img src="/2019/05/03/Hexo-Github搭建个人博客框架记录/anzhuang1.PNG" alt><br>       <a id="more"></a></p>
 <p>2.安装git成功后<br>    可以看是否安装成功，可以右击就会出现，一个是命令形式，一个是图形形式，建议用命令。<br>     Git分三个区：<br>          1.工作区<br>          2.暂存区<br>          3.本地仓库<br>      示例：向仓库添加文件<br>       1.创建一个文件夹，可以通过右击的形式，也可以通过命令的形式mkdir double<br>       2.在本地创建一个文件 命令：touch a1.jsp<br>       3.将本地文件提交到暂存区 命令：git add a1.jsp<br>       4.将暂存区的文件提交到仓库 命令：git commit -m ‘提交描述’<br>       5.将暂存区的问件提交到远端 命令 git push<br> 3.通过git来设置访问github的用户名和密码，设置成功后通过git config –list 来查看是否设置成功<br>        <img src="/2019/05/03/Hexo-Github搭建个人博客框架记录/anzhuang2.PNG" alt><br> 4.通过git来管理远程仓库<br>        1.Git来管理远程仓库并不是直接进行线上编辑管理，而是先将其克隆下来到本地进行修改删除操作,克隆的命令 git clone 仓库地址<br>        2.修改删除完成后再将其提交到远端，通过命令 git push.</p>
 <h4 id="第二部：搭建个人站点"><a href="#第二部：搭建个人站点" class="headerlink" title="第二部：搭建个人站点"></a><strong>第二部：搭建个人站点</strong></h4><p> 1.新建仓库，新建的个人网站仓库有规范，必须是 用户名.github.io作为仓库名，这个时候就能访问只不过是空的网站,仓库命名实例：<br>    <img src="/2019/05/03/Hexo-Github搭建个人博客框架记录/anzhuang3.PNG" alt><br> 2.在仓库下新建index.html来作为网站首页</p>
 <h4 id="第三步：Hexo框架安装"><a href="#第三步：Hexo框架安装" class="headerlink" title="第三步：Hexo框架安装"></a><strong>第三步：Hexo框架安装</strong></h4><p> 1.在安装Hexo后进行初始化,命令 hexo init<br> 2.hexo install 安装依赖包<br> 3.cnpm install hexo-deployer-git –save<br> 4.打开其中的_config.yml 文件，打开这种文件可以用很多软件，自己用的是Visual Studio Code，然后修改其中的内容<br>             1.type: git<br>             2.repo（是仓库的简写）:<br>             <a href="https://github.com/SuperDouble/SuperDouble.github.io.git" target="_blank" rel="noopener">https://github.com/SuperDouble/SuperDouble.github.io.git</a><br>             3.branch: master<br>             <img src="/2019/05/03/Hexo-Github搭建个人博客框架记录/anzhuang6.PNG" alt></p>
@@ -189,6 +189,16 @@
         </div>
         
         
+        
+        <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
         
     </div>
 </div>
@@ -307,7 +317,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Entradas
+                        Posts
                     </p>
                     <p class="title has-text-weight-normal">
                         4
@@ -317,7 +327,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Categorias
+                        Categories
                     </p>
                     <p class="title has-text-weight-normal">
                         3
@@ -327,7 +337,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Etiquetas
+                        Tags
                     </p>
                     <p class="title has-text-weight-normal">
                         3
@@ -337,7 +347,7 @@
         </nav>
         <div class="level">
             <a class="level-item button is-link is-rounded" href="https://github.com/SuperDouble" target="_blank">
-                SEGUIR</a>
+                Follow</a>
         </div>
         
         
@@ -424,7 +434,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Categorias
+                Categories
             </h3>
             <ul class="menu-list">
             <li>
@@ -461,7 +471,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Nube de etiquetas
+            Tag Cloud
         </h3>
         <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/python/" style="font-size: 10px;">python</a>
     </div>
@@ -475,7 +485,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
         
         <article class="media">
@@ -562,7 +572,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -586,7 +596,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -631,7 +641,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recientes
+            Recent
         </h3>
         
         <article class="media">
@@ -718,7 +728,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archivos
+            Archives
         </h3>
         <ul class="menu-list">
         
@@ -742,7 +752,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Etiquetas
+                Tags
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -942,10 +952,10 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Entradas',
+                POSTS: 'Posts',
                 PAGES: 'Pages',
-                CATEGORIES: 'Categorias',
-                TAGS: 'Etiquetas',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
                 UNTITLED: '(Untitled)',
             },
             CONTENT_URL: '/content.json',
