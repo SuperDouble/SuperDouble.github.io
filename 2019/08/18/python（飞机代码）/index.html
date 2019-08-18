@@ -2,26 +2,31 @@
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>Etiqueta: linux - Double的个人博客</title>
+<title>python基础结束（飞机代码） - Double的个人博客</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Double的个人博客">
-<meta property="og:url" content="http://yoursite.com/tags/linux/index.html">
+    <meta name="description" content="前言：python的基础结束，附上飞机大战面向对象思想的基础的源码">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python基础结束（飞机代码）">
+<meta property="og:url" content="http://yoursite.com/2019/08/18/python（飞机代码）/index.html">
 <meta property="og:site_name" content="Double的个人博客">
+<meta property="og:description" content="前言：python的基础结束，附上飞机大战面向对象思想的基础的源码">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://yoursite.com/images/og_image.png">
+<meta property="og:image" content="https://images.unsplash.com/photo-1511102935-17ca22bab438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+<meta property="og:updated_time" content="2019-08-18T10:07:00.130Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Double的个人博客">
-<meta name="twitter:image" content="http://yoursite.com/images/og_image.png">
+<meta name="twitter:title" content="python基础结束（飞机代码）">
+<meta name="twitter:description" content="前言：python的基础结束，附上飞机大战面向对象思想的基础的源码">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1511102935-17ca22bab438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
 
 
 
 
 
-<link rel="alternative" href="/atom.xml" title="Double的个人博客" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="python基础结束（飞机代码）" type="application/atom+xml">
 
 
 
@@ -91,7 +96,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/blogtx.jpg" alt="Double的个人博客" height="28">
+                <img src="/images/blogtx.jpg" alt="python基础结束（飞机代码）" height="28">
             
             </a>
         </div>
@@ -137,39 +142,28 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
-    <div class="card-content">
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-        <ul>
-            <li><a href="/tags">Etiquetas</a></li>
-            <li class="is-active"><a href="#" aria-current="page">linux</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
-
-    <div class="card">
     
     <div class="card-image">
-        <a href="/2019/05/06/linux基础和常用命令/" class="image is-7by1">
-            <img class="thumbnail" src="https://images.unsplash.com/photo-1513339959218-cad8f0dc6b67?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="linux基础和常用命令">
-        </a>
+        <span class="image is-7by1">
+            <img class="thumbnail" src="https://images.unsplash.com/photo-1511102935-17ca22bab438?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="python基础结束（飞机代码）">
+        </span>
     </div>
     
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-05-06T13:23:13.000Z">2019-05-06</time>
+                <time class="level-item has-text-grey" datetime="2019-08-18T08:50:49.000Z">2019-08-18</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/linux/">linux</a>
+                <a class="has-link-grey -link" href="/categories/python/">python</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    11 minutes read (About 1651 words)
+                    5 minutes read (About 791 words)
                 </span>
                 
                 
@@ -178,31 +172,111 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/05/06/linux基础和常用命令/">linux基础和常用命令</a>
+                python基础结束（飞机代码）
             
         </h1>
         <div class="content">
-            <h6 id="前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正"><a href="#前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正" class="headerlink" title="前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正."></a>前言：linux的常用命令对于新手初入职场的我来说也应该了解和掌握，这篇记录只是linux系统指令的一小部分，如果有任何不妥的地方，希望大家指正.</h6>
+            <p> <em>前言：python的基础结束，附上飞机大战面向对象思想的基础的源码</em><br> <a id="more"></a><br><strong>First：python源码（主）</strong><br><figure class="highlight python hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> pygame</span><br><span class="line"><span class="hljs-keyword">from</span> plane_sprites <span class="hljs-keyword">import</span> *</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PlaneGame</span><span class="hljs-params">(object)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"初始化"</span>)</span><br><span class="line">        self.screen = pygame.display.set_mode(SCREEN_RECT.size)</span><br><span class="line">        self.clock = pygame.time.Clock()</span><br><span class="line">        self.__create_sprites()</span><br><span class="line">        pygame.time.set_timer(CREATE_ENEMY_EVENT, <span class="hljs-number">1000</span>)</span><br><span class="line">        pygame.time.set_timer(HERO_FIRE_EVENT, <span class="hljs-number">500</span>)</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__create_sprites</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        <span class="hljs-comment"># 创建背景精灵和精灵组</span></span><br><span class="line">        bg1 = Background()</span><br><span class="line">        bg2 = Background(<span class="hljs-literal">True</span>)</span><br><span class="line">        self.back_group = pygame.sprite.Group(bg1, bg2)</span><br><span class="line"></span><br><span class="line">        <span class="hljs-comment"># 创建敌机精灵组</span></span><br><span class="line">        self.enemy_group = pygame.sprite.Group()</span><br><span class="line"></span><br><span class="line">        <span class="hljs-comment"># 创建飞机精灵组,将飞机定义属性主要是为了</span></span><br><span class="line">        <span class="hljs-comment"># 后面碰撞检测好用</span></span><br><span class="line">        self.hero = Hero()</span><br><span class="line">        self.hero_group = pygame.sprite.Group(self.hero)</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">start_game</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"游戏开始"</span>)</span><br><span class="line">        <span class="hljs-keyword">while</span> <span class="hljs-literal">True</span>:</span><br><span class="line">            self.clock.tick(FRAME_PER_SEC)</span><br><span class="line">            self.__event_handler()</span><br><span class="line">            self.__check_collide()</span><br><span class="line">            self.__update_sprites()</span><br><span class="line">            pygame.display.update()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__event_handler</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        <span class="hljs-keyword">for</span> event <span class="hljs-keyword">in</span> pygame.event.get():</span><br><span class="line">            <span class="hljs-keyword">if</span> event.type == pygame.QUIT:</span><br><span class="line">                PlaneGame.__game_over()</span><br><span class="line">            <span class="hljs-keyword">elif</span> event.type == CREATE_ENEMY_EVENT:</span><br><span class="line">                print(<span class="hljs-string">"敌机coming"</span>)</span><br><span class="line">                <span class="hljs-comment"># 创建敌机精灵</span></span><br><span class="line">                enemy = Enemy()</span><br><span class="line">                <span class="hljs-comment"># 创建的敌机精灵加到精灵组</span></span><br><span class="line">                self.enemy_group.add(enemy)</span><br><span class="line">            <span class="hljs-keyword">elif</span> event.type == HERO_FIRE_EVENT:</span><br><span class="line">                self.hero.fire()</span><br><span class="line"></span><br><span class="line">            <span class="hljs-comment"># elif event.type == pygame.KEYDOWN and event.key == pygame.K_RIGHT:</span></span><br><span class="line">            <span class="hljs-comment">#    print("敌机向右移动...")</span></span><br><span class="line">        keys_pressed = pygame.key.get_pressed()</span><br><span class="line">        <span class="hljs-keyword">if</span> keys_pressed[pygame.K_RIGHT]:</span><br><span class="line">            print(<span class="hljs-string">"向右移动.."</span>)</span><br><span class="line">            self.hero.speed = <span class="hljs-number">2</span></span><br><span class="line">        <span class="hljs-keyword">elif</span> keys_pressed[pygame.K_LEFT]:</span><br><span class="line">            print(<span class="hljs-string">"向左移动..."</span>)</span><br><span class="line">            self.hero.speed = <span class="hljs-number">-2</span></span><br><span class="line">        <span class="hljs-keyword">else</span>:</span><br><span class="line">            self.hero.speed = <span class="hljs-number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__check_collide</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        <span class="hljs-comment"># 子弹摧毁敌机</span></span><br><span class="line">        pygame.sprite.groupcollide(self.enemy_group, self.hero.bullets, <span class="hljs-literal">True</span>, <span class="hljs-literal">True</span>)</span><br><span class="line">        <span class="hljs-comment"># 敌机摧毁飞机,返回list</span></span><br><span class="line">        enemies = pygame.sprite.spritecollide(self.hero, self.enemy_group, <span class="hljs-literal">True</span>)</span><br><span class="line">        <span class="hljs-keyword">if</span> len(enemies) &gt; <span class="hljs-number">0</span>:</span><br><span class="line">            self.hero.kill()</span><br><span class="line">            PlaneGame.__game_over()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__update_sprites</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        self.back_group.update()</span><br><span class="line">        self.back_group.draw(self.screen)</span><br><span class="line"></span><br><span class="line">        self.enemy_group.update()</span><br><span class="line">        self.enemy_group.draw(self.screen)</span><br><span class="line"></span><br><span class="line">        self.hero_group.update()</span><br><span class="line">        self.hero_group.draw(self.screen)</span><br><span class="line"></span><br><span class="line">        self.hero.bullets.update()</span><br><span class="line">        self.hero.bullets.draw(self.screen)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-meta">    @staticmethod</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__game_over</span><span class="hljs-params">()</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"游戏结束"</span>)</span><br><span class="line">        pygame.quit()</span><br><span class="line">        exit()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">'__main__'</span>:</span><br><span class="line">    game = PlaneGame()</span><br><span class="line">    game.start_game()</span><br></pre></td></tr></table></figure></p>
+<p><strong>Second：Python源码（工具包）</strong><br><figure class="highlight python hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> random</span><br><span class="line"><span class="hljs-keyword">import</span> pygame</span><br><span class="line"><span class="hljs-comment"># 屏幕大小</span></span><br><span class="line">SCREEN_RECT = pygame.Rect(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">480</span>, <span class="hljs-number">700</span>)</span><br><span class="line"><span class="hljs-comment"># 刷新帧率</span></span><br><span class="line">FRAME_PER_SEC = <span class="hljs-number">60</span></span><br><span class="line"><span class="hljs-comment"># 创建敌机定时器常量</span></span><br><span class="line">CREATE_ENEMY_EVENT = pygame.USEREVENT</span><br><span class="line"><span class="hljs-comment"># 创建飞机发射子弹的定时器常量</span></span><br><span class="line">HERO_FIRE_EVENT = pygame.USEREVENT + <span class="hljs-number">1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">GameSprite</span><span class="hljs-params">(pygame.sprite.Sprite)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, image_name, speed=<span class="hljs-number">1</span>)</span>:</span></span><br><span class="line">        super().__init__()</span><br><span class="line">        self.image = pygame.image.load(image_name)</span><br><span class="line">        self.speed = speed</span><br><span class="line">        self.rect = self.image.get_rect()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        self.rect.y += self.speed</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Background</span><span class="hljs-params">(GameSprite)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, is_alt=False)</span>:</span></span><br><span class="line">        super().__init__(<span class="hljs-string">"./images/background.png"</span>)</span><br><span class="line">        <span class="hljs-keyword">if</span> is_alt:</span><br><span class="line">            self.rect.y = - self.rect.height</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().update()</span><br><span class="line">        <span class="hljs-keyword">if</span> self.rect.y &gt;= self.rect.height:</span><br><span class="line">            self.rect.y = -self.rect.height</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Enemy</span><span class="hljs-params">(GameSprite)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().__init__(<span class="hljs-string">"./images/enemy1.png"</span>)</span><br><span class="line">        self.speed = random.randint(<span class="hljs-number">1</span>, <span class="hljs-number">3</span>)</span><br><span class="line">        <span class="hljs-comment"># self.rect.y = self.rect.y-self.rect.height+self.speed</span></span><br><span class="line">        self.rect.bottom = <span class="hljs-number">0</span></span><br><span class="line">        max_x = SCREEN_RECT.width - self.rect.width</span><br><span class="line">        self.rect.x = random.randint(<span class="hljs-number">0</span>, max_x)</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().update()</span><br><span class="line">        <span class="hljs-keyword">if</span> self.rect.y &gt;= SCREEN_RECT.height:</span><br><span class="line">            <span class="hljs-comment"># print("敌机飞出窗口,从精灵组中删除")</span></span><br><span class="line">            self.kill()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__del__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        <span class="hljs-comment"># print("%s敌机销毁内存..." % self.rect)</span></span><br><span class="line">        <span class="hljs-keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Hero</span><span class="hljs-params">(GameSprite)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().__init__(<span class="hljs-string">"./images/me1.png"</span>, <span class="hljs-number">0</span>)</span><br><span class="line">        self.rect.centerx = SCREEN_RECT.centerx</span><br><span class="line">        self.rect.y = SCREEN_RECT.height-self.rect.height</span><br><span class="line">        self.bullets = pygame.sprite.Group()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        self.rect.x += self.speed</span><br><span class="line">        <span class="hljs-keyword">if</span> self.rect.x &lt; <span class="hljs-number">0</span>:</span><br><span class="line">            self.rect.x = <span class="hljs-number">0</span></span><br><span class="line">        <span class="hljs-keyword">elif</span> self.rect.right &gt; SCREEN_RECT.right:</span><br><span class="line">            self.rect.right = SCREEN_RECT.right</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">fire</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"发射子弹.."</span>)</span><br><span class="line">        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span>(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>):</span><br><span class="line">            bullet = Bullet()</span><br><span class="line">            <span class="hljs-comment"># rect.bottom = rect.y + rect.height</span></span><br><span class="line">            bullet.rect.bottom = self.rect.y - i*<span class="hljs-number">20</span></span><br><span class="line">            bullet.rect.centerx = self.rect.centerx</span><br><span class="line">            self.bullets.add(bullet)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bullet</span><span class="hljs-params">(GameSprite)</span>:</span></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().__init__(<span class="hljs-string">"./images/bullet1.png"</span>, <span class="hljs-number">-2</span>)</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        super().update()</span><br><span class="line">        <span class="hljs-keyword">if</span> self.rect.bottom &lt; <span class="hljs-number">0</span>:</span><br><span class="line">            self.kill()</span><br><span class="line"></span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__del__</span><span class="hljs-params">(self)</span>:</span></span><br><span class="line">        print(<span class="hljs-string">"子弹被销毁.."</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>Last：运行的效果</strong></p>
+<p> <img src="/2019/08/18/python（飞机代码）/1.PNG" alt></p>
+
         </div>
         
-        
-        <div class="level is-mobile">
+        <div class="level is-size-7 is-uppercase">
             <div class="level-start">
                 <div class="level-item">
-                <a class="button is-size-7 is-light" href="/2019/05/06/linux基础和常用命令/#more">Read More</a>
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/tags/python/">python</a>
                 </div>
             </div>
         </div>
         
+        
+        
+        <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
         
     </div>
 </div>
 
 
 
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
+        <div class="buttons is-centered">
+            
+                
+<a class="button is-info donate">
+    <span class="icon is-small">
+        <i class="fab fa-alipay"></i>
+    </span>
+    <span>Alipay</span>
+    <div class="qrcode"><img src="/images/zhifubao.jpg" alt="Alipay"></div>
+</a>
+
+                
+                
+<a class="button is-success donate">
+    <span class="icon is-small">
+        <i class="fab fa-weixin"></i>
+    </span>
+    <span>Wechat</span>
+    <div class="qrcode"><img src="/images/wechat.png" alt="Wechat"></div>
+</a>
+
+                
+                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
+
+<a class="button is-warning donate" onclick="document.getElementById(&#39;paypal-donate-form&#39;).submit()">
+    <span class="icon is-small">
+        <i class="fab fa-paypal"></i>
+    </span>
+    <span>Paypal</span>
+</a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" id="paypal-donate-form">
+    <input type="hidden" name="cmd" value="_donations">
+    <input type="hidden" name="business" value="1021841869@qq.com">
+    <input type="hidden" name="currency_code" value="USD">
+</form>
+
+                
+                
+<a class="button is-danger donate" href="https://www.patreon.com/" target="_blank">
+    <span class="icon is-small">
+        <i class="fab fa-patreon"></i>
+    </span>
+    <span>Patreon</span>
+</a>
+
+                
+        </div>
+    </div>
+</div>
 
 
 
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/05/06/linux基础和常用命令/">
+                <span class="level-item">linux基础和常用命令</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
 
 
 </div>
@@ -784,7 +858,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/blogtx.jpg" alt="Double的个人博客" height="28">
+                    <img src="/images/blogtx.jpg" alt="python基础结束（飞机代码）" height="28">
                 
                 </a>
                 <p class="is-size-7">
