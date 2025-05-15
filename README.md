@@ -1,3 +1,5 @@
 # Personal Website
 
-http://chaofengc.github.io/
+https://superdouble.github.io/
+
+Website adapted from Chaofengc's template: https://chaofengc.github.io/
