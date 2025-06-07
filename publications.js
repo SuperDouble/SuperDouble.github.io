@@ -11,6 +11,7 @@ var data = {
         //     "arxiv": "",
         //     "github": "",
         // },
+
         {
             "highlight": true,
             "img": "images_output/tcsvt_ssc.png",
@@ -95,6 +96,13 @@ var data = {
             "pdf": "https://arxiv.org/pdf/2207.11699",
         },
         {
+                    "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
+                    "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
+                    "journal": "submitted to IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>)",
+                    "year": 2025,
+                    "arxiv": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173948758.83224261",
+         },
+        {
             "highlight": true,
             "img": "images_output/tip_ssc.png",
             "title": "Enhanced Geometry and Semantics for Camera-based 3D Semantic Scene Completion",
@@ -117,13 +125,6 @@ var data = {
             "conference": "submitted to IEEE Transactions on Multimedia (<b>TMM</b>)",
             "year": 2025,
             "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
-        },
-        {
-            "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
-            "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
-            "conference": "submitted to IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>)",
-             "year": 2025,
-             "arxiv": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173948758.83224261",
         },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
