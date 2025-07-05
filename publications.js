@@ -12,11 +12,11 @@ var data = {
         //     "github": "",
         // },
        {
-       "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
-       "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
-       "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT</b>)",
-        "year": 2025,
-        "arxiv": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.173948758.83224261",
+           "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
+           "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
+           "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT</b>)",
+           "year": 2025,
+           "pdf": "https://ieeexplore.ieee.org/document/11029471",
         },
         {
             "highlight": true,
@@ -24,7 +24,7 @@ var data = {
             "title": "	Semantic Scene Completion via Semantic-aware Guidance and Interactive Refinement Transformer",
             "authors": "Haihong Xiao, Wenxiong Kang, Hao Liu, Yuqiong Li, Ying He",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT</b>)",
-            "year": 2024,
+            "year": 2025,
             "pdf": "https://ieeexplore.ieee.org/document/10804191",
         },
         {
@@ -44,24 +44,6 @@ var data = {
             "journal": "IEEE Transactions on Intelligent Transportation Systems (<b>IEEE Trans. TITS</b>)",
             "year": 2024,
             "pdf": "https://ieeexplore.ieee.org/document/10379527",
-        },
-        {
-                    "highlight": true,
-                    "img": "images_output/tcsvt_dmnet.png",
-                    "title": "Distinguishing and Matching-Aware Unsupervised Point Cloud Completion",
-                    "authors": "Haihong Xiao, Yuqiong Li, Wenxiong Kang, Qiuxia Wu",
-                    "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT</b>)",
-                    "year": 2023,
-                    "pdf": "https://ieeexplore.ieee.org/document/10056970",
-         },
-        {
-            "highlight": true,
-            "img": "images_output/tim_mdnet.png",
-            "title": "Multi-Dimensional Graph Interactional Network for Progressive Point Cloud Completion",
-            "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
-            "journal": "IEEE Transactions on Instrumentation and Measurement (<b>IEEE Trans. TIM</b>)",
-            "year": 2023,
-            "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
                 
         {
@@ -85,6 +67,24 @@ var data = {
             "year": 2024,
             "pdf": "https://ieeexplore.ieee.org/document/10982030",
         },
+        {
+            "highlight": true,
+            "img": "images_output/tcsvt_dmnet.png",
+            "title": "Distinguishing and Matching-Aware Unsupervised Point Cloud Completion",
+            "authors": "Haihong Xiao, Yuqiong Li, Wenxiong Kang, Qiuxia Wu",
+            "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT</b>)",
+            "year": 2023,
+            "pdf": "https://ieeexplore.ieee.org/document/10056970",
+        },
+        {
+            "highlight": true,
+            "img": "images_output/tim_mdnet.png",
+            "title": "Multi-Dimensional Graph Interactional Network for Progressive Point Cloud Completion",
+            "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
+            "journal": "IEEE Transactions on Instrumentation and Measurement (<b>IEEE Trans. TIM</b>)",
+            "year": 2023,
+            "pdf": "https://ieeexplore.ieee.org/document/9978708",
+        },
         {   
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
@@ -103,28 +103,13 @@ var data = {
         },
         {
             "highlight": true,
-            "img": "images_output/tip_ssc.png",
-            "title": "Enhanced Geometry and Semantics for Camera-based 3D Semantic Scene Completion",
-            "authors": "Haihong Xiao, Wenxiong Kang, Yulan Guo, Hao Liu, Ying He",
-            "conference": "submitted to IEEE Transactions on Image Processing (<b>IEEE Trans. TIP</b>)",
-            "year": 2025,
-        },
-        {
-            "highlight": true,
             "img": "images_output/tvcg_splaco.png",
             "title": "SplatCo: Structure-View Collaborative Gaussian Splatting for Detail-Preserving Rendering of Large-Scale Unbounded Scenes",
             "authors": "Haihong Xiao†, Jianan Zou†, Yuxin Zhou, Ying He, Wenxiong Kang",
-            "conference": "submitted to IEEE Transactions on Visualization and Computer Graphics (<b>IEEE Trans. TVCG</b>)",
+            "conference": " ",
             "arxiv": "https://arxiv.org/abs/2505.17951",
             "year": 2025,
             "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
-        },
-        {
-            "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
-            "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
-            "conference": "submitted to IEEE Transactions on Multimedia (<b>IEEE Trans. TMM</b>)",
-            "year": 2025,
-            "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
         },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
@@ -168,6 +153,11 @@ var data = {
         "Qiuxia Wu": "https://scholar.google.com/citations?user=bzt_YKwAAAAJ&hl=zh-CN",
         "Xueyan Zhao": "https://yanzhao.scut.edu.cn/open/ExpertInfo.aspx?zjbh=l9fI4ICNGHU1YImPAbWlLQ==",
         "Tianlu Mao": "https://scholar.google.com/citations?user=851N-WEAAAAJ&hl=zh-CN&oi=ao",
-        "Zhenlong Yuan": "https://scholar.google.com/citations?user=zii-mcAAAAAJ&hl=zh-CN&oi=ao"
+        "Zhenlong Yuan": "https://scholar.google.com/citations?user=zii-mcAAAAAJ&hl=zh-CN&oi=ao",
+        "Minglin Chen": "https://scholar.google.com/citations?user=G4oCNmUAAAAJ&hl=zh-CN&oi=sra",
+        "Yanni Ma": "https://scholar.google.com/citations?user=jc58aTgAAAAJ&hl=zh-CN&oi=ao",
+        "Zhaoqi Wang": "https://baike.baidu.com/item/%E7%8E%8B%E5%85%86%E5%85%B6/8059428",
+        "Yuqiong Li": "https://people.ucas.ac.cn/~0047224"
+
     }
 };
