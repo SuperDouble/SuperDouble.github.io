@@ -159,20 +159,7 @@ var data = {
     },
     "author_links":
     {
-        "Haihong Xiao": "https://scholar.google.com/citations?user=8AV-HUYAAAAJ&hl=zh-CN",
-        "Wenxiong Kang": "https://www.scholat.com/auwxkang",
-        "Ying He": "https://personal.ntu.edu.sg/yhe/",
-        "Yulan Guo": "https://www.yulanguo.cn/",
-        "Hao Liu": "https://scholar.google.com/citations?user=CEEtEnoAAAAJ&hl=zh-CN&oi=sra",
-        "Hongbin Xu": "https://scholar.google.com/citations?user=mRC_emoAAAAJ&hl=zh-CN&oi=ao",
-        "Qiuxia Wu": "https://scholar.google.com/citations?user=bzt_YKwAAAAJ&hl=zh-CN",
-        "Xueyan Zhao": "https://yanzhao.scut.edu.cn/open/ExpertInfo.aspx?zjbh=l9fI4ICNGHU1YImPAbWlLQ==",
-        "Tianlu Mao": "https://scholar.google.com/citations?user=851N-WEAAAAJ&hl=zh-CN&oi=ao",
-        "Zhenlong Yuan": "https://scholar.google.com/citations?user=zii-mcAAAAAJ&hl=zh-CN&oi=ao",
-        "Minglin Chen": "https://scholar.google.com/citations?user=G4oCNmUAAAAJ&hl=zh-CN&oi=sra",
-        "Yanni Ma": "https://scholar.google.com/citations?user=jc58aTgAAAAJ&hl=zh-CN&oi=ao",
-        "Zhaoqi Wang": "https://baike.baidu.com/item/%E7%8E%8B%E5%85%86%E5%85%B6/8059428",
-        "Yuqiong Li": "https://people.ucas.ac.cn/~0047224"
+        "Haihong Xiao": "https://scholar.google.com/citations?user=8AV-HUYAAAAJ&hl=zh-CN"
 
     }
 };
