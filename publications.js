@@ -101,14 +101,6 @@ var data = {
             // "oral": "Oral",
             "pdf": "https://arxiv.org/pdf/2207.11699",
         },
-                {
-                    "highlight": true,
-                    "img": "images_output/tip_ssc.png",
-                    "title": "Enhanced Geometry and Semantics for Camera-based 3D Semantic Scene Completion",
-                    "authors": "Haihong Xiao, Wenxiong Kang, Yulan Guo, Hao Liu, Ying He",
-                    "conference": "submitted to IEEE Transactions on Image Processing (<b>TIP</b>)",
-                    "year": 2025,
-                },
         {
             "highlight": true,
             "img": "images_output/tvcg_splaco.png",
@@ -120,9 +112,11 @@ var data = {
             "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
         },
                 {
+                    "highlight": true,
+                    "img": "images_output/tmm_geosp.png",
                     "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
                     "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
-                    "conference": "submitted to IEEE Transactions on Multimedia (<b>TMM</b>)",
+                    "conference": " ",
                     "year": 2025,
                     "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
                 },
