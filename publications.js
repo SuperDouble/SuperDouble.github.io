@@ -12,6 +12,8 @@ var data = {
         //     "github": "",
         // },
        {
+           "highlight": true,
+           "img": "images_output/tcsvt_grmvs.png",
            "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
            "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
            "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT, IF:11.1</b>)",
@@ -47,6 +49,8 @@ var data = {
         },
                 
         {
+            "highlight": true,
+            "img": "images_output/tim_tfc.png",
             "title": "Text-Free Controllable 3-D Point Cloud Generation",
             "authors": "Haihong Xiao, Wenxiong Kang, Yuqiong Li, Hongbin Xu",
             "journal": "IEEE Transactions on Instrumentation and Measurement (<b>IEEE Trans. TIM, IF:5.9</b>)",
@@ -54,6 +58,8 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10411836",
         },
         {
+            "highlight": true,
+            "img": "images_output/tcsvt_eamvs.png",
             "title": "EA-MVSNet: Learning Error-Awareness for Enhanced Multi-View Stereo",
             "authors": "Wencong Gu†, Haihong Xiao†, Xueyan Zhao, Wenxiong Kang",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE Trans. TCSVT, IF:11.1</b>)",
@@ -79,13 +85,17 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10056970",
         },
         {
+            "highlight": true,
+            "img": "images_output/tim_mdnet.png",
             "title": "Multi-Dimensional Graph Interactional Network for Progressive Point Cloud Completion",
             "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
             "journal": "IEEE Transactions on Instrumentation and Measurement (<b>IEEE Trans. TIM, IF:5.9</b>)",
             "year": 2023,
             "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
-        {   
+        {
+            "highlight": true,
+            "img": "images_output/iccv_pdc.jpg",
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
             "journal": "IEEE/CVF International Conference on Computer Vision (<b>CCF A, ICCV</b>)",
@@ -101,6 +111,38 @@ var data = {
             // "oral": "Oral",
             "pdf": "https://arxiv.org/pdf/2207.11699",
         },
+                {
+                    "title": "Key techniques for three-dimensional completion: a review",
+                    "authors": "Haihong Xiao, Qiuxia Wu, Yuqiong Li, Wenxiong Kang",
+                    "journal": "Optics and Precision Engineering (<b>EI, T1</b>)",
+                    "year": 2023,
+                    // "oral": "Oral",
+                    "pdf": "https://ope.lightpublishing.cn/zh/article/doi/10.37188/OPE.20233105.0667/",
+                },
+                {
+                    "title": "Point cloud complementation method of Epipremnum aureum leaves under occlusion conditions based on MSF-PPD network",
+                    "authors": "Haihong Xiao, Huanliang Xu, Shihang Ma, Ling Chen, Jiangbo Wang, Haoyun Wang",
+                    "journal": "Trans. Chin. Soc. of Agric. Mach (<b>EI, T1</b>)",
+                    "year": 2021,
+                    // "oral": "Oral",
+                    "pdf": "https://kns.cnki.net/kcms2/article/abstract?v=mdHrqfOh4rGUiwIS0kRH45ZYVWOvWTLH2_Vt9Z4ynTVwt8dZGLhDltZShZ7ZLvO9D9egBipkKL8AzJymuIlrVJiCHf0TAqAHb5YnNZaZO04j17llzH-FYR4oHt-gks5jOXGeUd5LDFNPv0eObpWfBdcHlQU4ZloUrdE2LIU2XAWTC4F8mqb00Q==&uniplatform=NZKPT&language=CHS",
+                },
+                {
+                    "title": "Estimation Algorithm of Leaf Shape Parameters of Scirpus sibiricum Based on MRE-PointNet and Autoencoder Model",
+                    "authors": "Haoyun Wang, Haihong Xiao, Shihang Ma, Lin Chen, Jiangbo Wang, Huanliang Xu",
+                    "journal": "Trans. Chin. Soc. of Agric. Mach. (<b>EI, T1</b>)",
+                    "year": 2021,
+                    // "oral": "Oral",
+                    "pdf": "https://kns.cnki.net/kcms2/article/abstract?v=mdHrqfOh4rHKBxdQCWO1lGBDxcnmV3q_ikJTZ653FuAri6bDVfB-E1Hk2XKjyxnz_rGCF_ldO5z__JIVe_1-mb4-PQ7jS_JZxYzHu4hFpFoqy4Sfv98xtHogHXp4Q1O9L1PaHvJ-XqvQ0LuVnWOItq-m7OQr5HQMwsGsonLHkD7I14AVTueyHg==&uniplatform=NZKPT&language=CHS",
+                },
+                {
+                    "title": "Estimation of external phenotypic parameters of Bunting leaves using FL-DGCNN model",
+                    "authors": "Ling Chen, Haoyun Wang, Haihong Xiao, Shihang Ma, Yao Yang, Huanliang Xu ",
+                    "journal": "Trans. Chin. Soc. of Agric. Engin. (<b>EI, T1</b>)",
+                    "year": 2021,
+                    // "oral": "Oral",
+                    "pdf": "https://kns.cnki.net/kcms2/article/abstract?v=mdHrqfOh4rGUiwIS0kRH45ZYVWOvWTLH2_Vt9Z4ynTVwt8dZGLhDllXI-aRfomIO0JEay4YYRoQFC9FSpeKje53rz25wTP1QxFZJY0R5aWbjaZOsqRiurs-FWg2gxX1LOkGykFD5ym2oU71w-HelYxTMuQ8RgfhhQCbvFD684Beh0c8UQ5x7hQ==&uniplatform=NZKPT&language=CHS",
+                },
         {
             "highlight": true,
             "img": "images_output/tvcg_splaco.png",
