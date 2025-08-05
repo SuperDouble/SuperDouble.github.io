@@ -98,7 +98,7 @@ var data = {
             "img": "images_output/iccv_pdc.jpg",
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
-            "journal": "IEEE/CVF International Conference on Computer Vision (<b>ICCV, CCF A</b>)",
+            "journal": "IEEE/CVF International Conference on Computer Vision (<b>ICCV, EI, CCF A</b>)",
             "year": 2023,
             "pdf": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_PointDC_Unsupervised_Semantic_Segmentation_of_3D_Point_Clouds_via_Cross-Modal_ICCV_2023_paper.html",
             "github": "https://github.com/SCUT-BIP-Lab/PointDC",
@@ -106,7 +106,7 @@ var data = {
         {   
             "title": "Semi-supervised Deep Multi-view Stereo",
             "authors": "Hongbin Xu, Weitao Chen, Yang Liu, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
-            "journal": "The 31st ACM International Conference on Multimedia (<b>ACM MM, CCF A</b>)",
+            "journal": "The 31st ACM International Conference on Multimedia (<b>ACM MM, EI, CCF A</b>)",
             "year": 2023,
             // "oral": "Oral",
             "pdf": "https://arxiv.org/pdf/2207.11699",
