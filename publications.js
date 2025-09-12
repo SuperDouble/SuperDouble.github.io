@@ -101,7 +101,6 @@ var data = {
             "journal": "IEEE/CVF International Conference on Computer Vision (<b>ICCV, EI, CCF A</b>), 14244-14253, Paris, France, October 01-06",
             "year": 2023,
             "pdf": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_PointDC_Unsupervised_Semantic_Segmentation_of_3D_Point_Clouds_via_Cross-Modal_ICCV_2023_paper.html",
-            "github": "https://github.com/SCUT-BIP-Lab/PointDC",
         },
         {   
             "title": "Semi-supervised Deep Multi-view Stereo",
