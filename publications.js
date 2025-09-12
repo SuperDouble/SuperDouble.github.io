@@ -71,7 +71,7 @@ var data = {
             "img": "images_output/tmm_sdf.jpg",
             "title": "Tri2plane: Advancing Neural Implicit Surface Reconstruction for Indoor Scenes",
             "authors": "Yiping Xie†, Haihong Xiao†, Wenxiong Kang",
-            "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, IF:9.7</b>), Early Access, May",
+            "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, IF:9.7</b>), Early Access, December",
             "year": 2024,
             "pdf": "https://ieeexplore.ieee.org/document/10982030",
         },
