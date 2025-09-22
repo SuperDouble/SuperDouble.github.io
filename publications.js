@@ -105,7 +105,7 @@ var data = {
         {   
             "title": "Semi-supervised Deep Multi-view Stereo",
             "authors": "Hongbin Xu, Weitao Chen, Yang Liu, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
-            "journal": "The 31st ACM International Conference on Multimedia (<b>ACM MM, EI, CCF A</b>), 4616-4625, Ottawa ON, Canada, October 28–November 3",
+            "journal": "The 31st ACM International Conference on Multimedia (<b>ACM MM, EI</b>), 4616-4625, Ottawa ON, Canada, October 28–November 3",
             "year": 2023,
             // "oral": "Oral",
             "pdf": "https://arxiv.org/pdf/2207.11699",
