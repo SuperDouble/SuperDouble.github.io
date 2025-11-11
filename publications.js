@@ -13,6 +13,14 @@ var data = {
         // },
        {
            "highlight": true,
+           "img": "images_output/tip_ssc.png",
+           "title": "Enhanced Geometry and Semantics for Camera-based 3D Semantic Scene Completion",
+           "authors": "Haihong Xiao, Wenxiong Kang, Yulan Guo, Hao Liu, Ying He",
+           "journal": "IEEE Transactions on Image Processing (<b>IEEE Trans. TIP, JCR Q1, IF:13.7</b>), Accepted, November",
+           "year": 2025,
+        },
+       {
+           "highlight": true,
            "img": "images_output/tcsvt_grmvs.png",
            "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
            "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
