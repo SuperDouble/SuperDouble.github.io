@@ -160,7 +160,7 @@ var data = {
             "year": 2025,
             "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
         },
-                {
+        {
                     "highlight": true,
                     "img": "images_output/tmm_geosp.png",
                     "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
@@ -168,7 +168,7 @@ var data = {
                     "conference": " ",
                     "year": 2025,
                     "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
-                },
+        },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
              "authors": "Jianlin Guo, Haihong Xiao, Wenxiong Kang",
