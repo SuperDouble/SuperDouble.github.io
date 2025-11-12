@@ -19,6 +19,15 @@ var data = {
            "journal": "IEEE Transactions on Image Processing (<b>IEEE Trans. TIP, JCR Q1, IF:13.7</b>), Accepted, November",
            "year": 2025,
         },
+        {
+                    "highlight": true,
+                    "img": "images_output/tmm_geosp.png",
+                    "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
+                    "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
+                    "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, JCR Q1, IF:9.7</b>), Accepted, November",
+                    "year": 2025,
+                    "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
+        },
        {
            "highlight": true,
            "img": "images_output/tcsvt_grmvs.png",
@@ -159,15 +168,6 @@ var data = {
             "arxiv": "https://arxiv.org/abs/2505.17951",
             "year": 2025,
             "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
-        },
-        {
-                    "highlight": true,
-                    "img": "images_output/tmm_geosp.png",
-                    "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
-                    "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
-                    "conference": " ",
-                    "year": 2025,
-                    "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
         },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
