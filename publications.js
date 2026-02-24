@@ -167,7 +167,7 @@ var data = {
              "conference": " ",
              "arxiv": "https://arxiv.org/abs/2505.10787",
              "year": 2025,
-             "github": "https://github.com/SCUT-BIP-Lab/EA-3DGS",
+            //  "github": "https://github.com/SCUT-BIP-Lab/EA-3DGS",
          },
         {
             "title": "3D Scene Graph Guided Vision-Language Pre-training",
