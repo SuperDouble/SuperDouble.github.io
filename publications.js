@@ -26,7 +26,6 @@ var data = {
             "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
             "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, JCR Q1, IF:9.7</b>), Accepted, November",
             "year": 2025,
-            // "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
         },
        {
            "img": "images_output/tcsvt_grmvs.png",
