@@ -16,20 +16,19 @@ var data = {
            "img": "images_output/tip_ssc.png",
            "title": "Enhanced Geometry and Semantics for Camera-based 3D Semantic Scene Completion",
            "authors": "Haihong Xiao, Wenxiong Kang, Yulan Guo, Hao Liu, Ying He",
-           "journal": "IEEE Transactions on Image Processing (<b>IEEE Trans. TIP, JCR Q1, IF:13.7</b>), Accepted, November",
+           "journal": "IEEE Transactions on Image Processing (<b>IEEE Trans. TIP, JCR Q1, IF:13.7</b>), 35:1-13, December",
            "year": 2025,
         },
         {
-                    "highlight": true,
-                    "img": "images_output/tmm_geosp.png",
-                    "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
-                    "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
-                    "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, JCR Q1, IF:9.7</b>), Accepted, November",
-                    "year": 2025,
-                    "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
+            "highlight": true,
+            "img": "images_output/tmm_geosp.png",
+            "title": "Geometry-Aware 3D Gaussian Representation for Real-Time Rendering of Large-Scale Scenes",
+            "authors": "Haihong Xiao, Jianan Zou, Shuai Xing, Pengcheng Li, Wenxiong Kang",
+            "journal": "IEEE Transactions on Multimedia (<b>IEEE Trans. TMM, JCR Q1, IF:9.7</b>), Accepted, November",
+            "year": 2025,
+            // "github": "https://github.com/SCUT-BIP-Lab/Geo_gs",
         },
        {
-           "highlight": true,
            "img": "images_output/tcsvt_grmvs.png",
            "title": "Learning Multi-View Stereo with Geometry-Aware Prior",
            "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
@@ -66,7 +65,6 @@ var data = {
         },
                 
         {
-            "highlight": true,
             "img": "images_output/tim_tfc.png",
             "title": "Text-Free Controllable 3-D Point Cloud Generation",
             "authors": "Haihong Xiao, Wenxiong Kang, Yuqiong Li, Hongbin Xu",
@@ -75,7 +73,6 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10411836",
         },
         {
-            "highlight": true,
             "img": "images_output/tcsvt_eamvs.png",
             "title": "EA-MVSNet: Learning Error-Awareness for Enhanced Multi-View Stereo",
             "authors": "Wencong Gu†, Haihong Xiao†, Xueyan Zhao, Wenxiong Kang",
@@ -84,7 +81,6 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10601197",
         },
         {
-            "highlight": true,
             "img": "images_output/tmm_sdf.jpg",
             "title": "Tri2plane: Advancing Neural Implicit Surface Reconstruction for Indoor Scenes",
             "authors": "Yiping Xie†, Haihong Xiao†, Wenxiong Kang",
@@ -93,7 +89,6 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10982030",
         },
         {
-            "highlight": true,
             "img": "images_output/tcsvt_dmnet.png",
             "title": "Distinguishing and Matching-Aware Unsupervised Point Cloud Completion",
             "authors": "Haihong Xiao, Yuqiong Li, Wenxiong Kang, Qiuxia Wu",
@@ -102,7 +97,6 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/10056970",
         },
         {
-            "highlight": true,
             "img": "images_output/tim_mdnet.png",
             "title": "Multi-Dimensional Graph Interactional Network for Progressive Point Cloud Completion",
             "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
@@ -111,7 +105,6 @@ var data = {
             "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
         {
-            "highlight": true,
             "img": "images_output/iccv_pdc.jpg",
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
@@ -163,11 +156,11 @@ var data = {
             "highlight": true,
             "img": "images_output/tvcg_splaco.png",
             "title": "SplatCo: Structure-View Collaborative Gaussian Splatting for Detail-Preserving Rendering of Large-Scale Unbounded Scenes",
-            "authors": "Haihong Xiao, Jianan Zou, Yuxin Zhou, Ying He, Wenxiong Kang",
+            "authors": "Haihong Xiao†, Jianan Zou†, Yuxin Zhou, Ying He, Wenxiong Kang",
             "conference": " ",
             "arxiv": "https://arxiv.org/abs/2505.17951",
             "year": 2025,
-            "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
+            // "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
         },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
