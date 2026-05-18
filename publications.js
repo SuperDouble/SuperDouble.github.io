@@ -71,7 +71,7 @@ var data = {
             "year": 2024,
             "pdf": "https://ieeexplore.ieee.org/document/10411836",
         },
-        {
+        {   "highlight": true,
             "img": "images_output/tcsvt_eamvs.png",
             "title": "EA-MVSNet: Learning Error-Awareness for Enhanced Multi-View Stereo",
             "authors": "Wencong Gu†, Haihong Xiao†, Xueyan Zhao, Wenxiong Kang",
@@ -79,7 +79,7 @@ var data = {
             "year": 2024,
             "pdf": "https://ieeexplore.ieee.org/document/10601197",
         },
-        {
+        {   "highlight": true,
             "img": "images_output/tmm_sdf.jpg",
             "title": "Tri2plane: Advancing Neural Implicit Surface Reconstruction for Indoor Scenes",
             "authors": "Yiping Xie†, Haihong Xiao†, Wenxiong Kang",
@@ -103,7 +103,7 @@ var data = {
             "year": 2022,
             "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
-        {
+        {   "highlight": true,
             "img": "images_output/iccv_pdc.jpg",
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
