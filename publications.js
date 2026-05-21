@@ -33,7 +33,7 @@ var data = {
            "authors": "Kehua Chen, Zhenlong Yuan, Haihong Xiao, Tianlu Mao, Zhaoqi Wang",
            "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT, JCR Q1, IF:11.1</b>), Early Access, June",
            "year": 2025,
-           "pdf": "https://ieeexplore.ieee.org/document/11029471",
+        //    "pdf": "https://ieeexplore.ieee.org/document/11029471",
         },
         {
             "highlight": true,
@@ -42,7 +42,7 @@ var data = {
             "authors": "Haihong Xiao, Wenxiong Kang, Hao Liu, Yuqiong Li, Ying He",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT, JCR Q1, IF:11.1</b>), 35(5):4212-4225, May",
             "year": 2025,
-            "pdf": "https://ieeexplore.ieee.org/document/10804191",
+            // "pdf": "https://ieeexplore.ieee.org/document/10804191",
         },
         {
             "highlight": true,
@@ -51,7 +51,7 @@ var data = {
             "authors": "Haihong Xiao, Ying He, Hao Liu, Wenxiong Kang, Yuqiong Li",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT, JCR Q1, IF:11.1</b>), 34(11):11564-11578, November",
             "year": 2024,
-            "pdf": "https://ieeexplore.ieee.org/document/10589366",
+            // "pdf": "https://ieeexplore.ieee.org/document/10589366",
         },
         {
             "highlight": true,
@@ -60,7 +60,7 @@ var data = {
             "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
             "journal": "IEEE Transactions on Intelligent Transportation Systems (<b>TITS, JCR Q1, IF:8.4</b>), 25(7):6543-6554, July",
             "year": 2024,
-            "pdf": "https://ieeexplore.ieee.org/document/10379527",
+            // "pdf": "https://ieeexplore.ieee.org/document/10379527",
         },
                 
         {
@@ -69,7 +69,7 @@ var data = {
             "authors": "Haihong Xiao, Wenxiong Kang, Yuqiong Li, Hongbin Xu",
             "journal": "IEEE Transactions on Instrumentation and Measurement (<b>TIM, JCR Q1, IF:5.9</b>), 73:1-12, January",
             "year": 2024,
-            "pdf": "https://ieeexplore.ieee.org/document/10411836",
+            // "pdf": "https://ieeexplore.ieee.org/document/10411836",
         },
         {   "highlight": true,
             "img": "images_output/tcsvt_eamvs.png",
@@ -77,7 +77,7 @@ var data = {
             "authors": "Wencong Gu†, Haihong Xiao†, Xueyan Zhao, Wenxiong Kang",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT, JCR Q1, IF:11.1</b>), 34(12):12127-12141, December",
             "year": 2024,
-            "pdf": "https://ieeexplore.ieee.org/document/10601197",
+            // "pdf": "https://ieeexplore.ieee.org/document/10601197",
         },
         {   "highlight": true,
             "img": "images_output/tmm_sdf.jpg",
@@ -85,7 +85,7 @@ var data = {
             "authors": "Yiping Xie†, Haihong Xiao†, Wenxiong Kang",
             "journal": "IEEE Transactions on Multimedia (<b>TMM, JCR Q1, IF:9.7, CCF-A</b>), Early Access, December",
             "year": 2024,
-            "pdf": "https://ieeexplore.ieee.org/document/10982030",
+            // "pdf": "https://ieeexplore.ieee.org/document/10982030",
         },
         {
             "img": "images_output/tcsvt_dmnet.png",
@@ -93,7 +93,7 @@ var data = {
             "authors": "Haihong Xiao, Yuqiong Li, Wenxiong Kang, Qiuxia Wu",
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT, JCR Q1, IF:11.1</b>), 33(9):5160-5173, September",
             "year": 2023,
-            "pdf": "https://ieeexplore.ieee.org/document/10056970",
+            // "pdf": "https://ieeexplore.ieee.org/document/10056970",
         },
         {
             "img": "images_output/tim_mdnet.png",
@@ -101,7 +101,7 @@ var data = {
             "authors": "Haihong Xiao, Hongbin Xu, Wenxiong Kang, Yuqiong Li",
             "journal": "IEEE Transactions on Instrumentation and Measurement (<b>TIM, JCR Q1, IF:5.9</b>), 72:1-12, December",
             "year": 2022,
-            "pdf": "https://ieeexplore.ieee.org/document/9978708",
+            // "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
         {   
             "img": "images_output/iccv_pdc.jpg",
@@ -109,7 +109,7 @@ var data = {
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
             "journal": "IEEE/CVF International Conference on Computer Vision (<b>ICCV, CCF-A</b>), 14244-14253, Paris, France, October 01-06",
             "year": 2023,
-            "pdf": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_PointDC_Unsupervised_Semantic_Segmentation_of_3D_Point_Clouds_via_Cross-Modal_ICCV_2023_paper.html",
+            // "pdf": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_PointDC_Unsupervised_Semantic_Segmentation_of_3D_Point_Clouds_via_Cross-Modal_ICCV_2023_paper.html",
         },
         {   
             "title": "Semi-supervised Deep Multi-view Stereo",
@@ -117,7 +117,7 @@ var data = {
             "journal": "The 31st ACM International Conference on Multimedia (<b>ACM MM, CCF-A</b>), 4616-4625, Ottawa ON, Canada, October 28–November 3",
             "year": 2023,
             // "oral": "Oral",
-            "pdf": "https://arxiv.org/pdf/2207.11699",
+            // "pdf": "https://arxiv.org/pdf/2207.11699",
         },
         {
             "highlight": true,
@@ -127,7 +127,7 @@ var data = {
             "conference": " ",
             "arxiv": "https://arxiv.org/abs/2505.17951",
             "year": 2025,
-            // "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
+            "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
         },
          {
              "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
