@@ -103,7 +103,7 @@ var data = {
             "year": 2022,
             "pdf": "https://ieeexplore.ieee.org/document/9978708",
         },
-        {   "highlight": true,
+        {   
             "img": "images_output/iccv_pdc.jpg",
             "title": "PointDC: Unsupervised Semantic Segmentation of 3D Point Clouds via Cross-modal Distillation and Super-Voxel Clustering",
             "authors": "Zisheng Chen, Hongbin Xu, Weitao Chen, Zhipeng Zhou, Haihong Xiao, Baigui Sun, Xuansong Xie, Wenxiong Kang",
