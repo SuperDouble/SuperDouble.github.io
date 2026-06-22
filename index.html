@@ -19,7 +19,7 @@
 <body>
   <div class="main-container">
     <!-------------------------------  Introduction -------------------------------------------->
-    <div class="content-container font-hei">
+    <div class="content-container font-song">
       <div class="hflex-container" id="profile">
         <div>
           <table>
@@ -68,6 +68,15 @@
         </p>
         -->
         <p>I am currently a lecturer at the School of Computer Science and Information Engineering, <strong>Hefei University of Technology (HFUT)</strong>. I received my Ph.D. from <strong>South China University of Technology (SCUT)</strong> in June 2025. From 2023 to 2024, I was a CSC-sponsored visiting Ph.D. student at <strong>Nanyang Technological University (NTU)</strong>, Singapore. My recent research interests focus on <strong>3D computer vision, scene reconstruction, and spatial intelligence</strong>. Over the past three years, I have published over 10 papers in prestigious venues, including IEEE Transactions journals and top-tier conferences. I am also a co-inventor of three granted patents. In addition, I have participated in several major research projects, including the National Key R&D Program and the General and Young Scientists Programs of the National Natural Science Foundation of China (NSFC). I also serve as a reviewer for leading journals such as <strong>IEEE TIP, TVCG, TMM, TCSVT, and TITS</strong>, as well as premier conferences like <strong>AAAI and ACM MM.</strong></p>
+
+        <!-------------------------------  Section navigation -------------------------------------------->
+        <nav class="section-nav">
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#activities">Professional Activities</a>
+          <a href="#awards">Awards</a>
+          <a href="#projects">Research Projects</a>
+        </nav>
         <!-- <p>肖海鸿，男，四川达州人，1995年7月生，2025年6月获得华南理工大学工学博士学位，师从康文雄教授。2023年至2024年，受国家留学基金委（CSC）资助，赴新加坡南洋理工大学计算机与数据科学学院进行联合培养，合作导师为贺英教授。研究方向主要为三维视觉、场景表示学习与空间智能。近三年，在IEEE Transactions等国际权威期刊及CCF-A类会议上发表论文10余篇，授权发明专利3项。作为核心成员参与国家重点研发计划项目、国家自然科学基金面上/青年项目等多项科研课题。此外，担任IEEE TIP、TVCG、TCSVT、TITS等国际权威期刊，以及ICCV、AAAI、ACM MM等知名会议的审稿人。</p>
         -->
         <div class="highlight">
@@ -88,7 +97,7 @@
 
       <!-- </div> -->
       <!-------------------------------  News -------------------------------------------->
-      <h2>News</h2>
+      <h2 id="news">News</h2>
       <hr>
       <div class="news">
         <ul class="news">
@@ -96,7 +105,7 @@
               href="https://github.com/SCUT-BIP-Lab/SplatCo" target="_blank"><img class="imgbadge"
                 src="https://img.shields.io/github/stars/SCUT-BIP-Lab/SplatCo?style=social"></a>.
           </li> -->
-            <li>2026-05: Invited to serve on the Program Committee for Pacific Graphics (PG) 2026!</span>
+            <li>2026-05: Invited to serve on the IPC member for Pacific Graphics (PG) 2026!</span>
             <li>2025-12: Granted qualification to supervise Master’s students!</span>
             <li>2025-11: One paper accepted to TIP 2025!</span>
             <li>2025-11: One paper accepted to TMM 2025!</span>
@@ -110,28 +119,14 @@
       </div>
         <!-------------------------------  Publications -------------------------------------------->
         <div id="publication-switch">
-            <h2 style="display: inline;">Publications</h2>
+            <h2 id="publications" style="display: inline;">Publications</h2>
             <ul class="inlineList">
-                <li><a href="javascript:void(0)" class="disabled">[Selected Papers]</a></li>
-                <li><a href="javascript:void(0)">[Full List]</a></li>
-                <li>
-                    <a href="https://scholar.google.com/citations?user=8AV-HUYAAAAJ&hl=zh-CN" target="_blank"
-                       class="mobile-display">
-                        [<font color="#4285F4">G</font>
-                        <font color="#DB4437">o</font>
-                        <font color="#F4B400">o</font>
-                        <font color="#4285F4">g</font>
-                        <font color="#0F9D58">l</font>
-                        <font color="#DB4437">e</font> Scholar]
-                    </a>
-                </li>
                 <li>( <sup>†</sup> equal contribution.)</li>
             </ul>
         </div>
         <hr>
-        <br>
 
-        <div id="highlight-publication">
+        <div id="highlight-publication" style="display: none;">
             <!-- <h3>Preprint Papers</h3> -->
             <!-- <ul class="preprint"></ul> -->
             <h3>Selected Pre-print Papers</h3>
@@ -139,17 +134,17 @@
             <h3>Recent Published Papers</h3>
             <ul class="journal"></ul>
         </div> <!-- #highlight-publication -->
-        <div id="full-list-publication" style="display: none;">
-            <!-- <h4>Preprint Papers</h4> -->
-            <!-- <ol class="preprint"></ol> -->
-            <h4>Pre-print Papers</h4>
-            <ol class="conference"></ol>
-            <h4>Published Papers</h4>
-            <ol class="journal"></ol>
+        <div id="full-list-publication">
+            <!-- <h3>Preprint Papers</h3> -->
+            <!-- <ul class="preprint"></ul> -->
+            <h3>Pre-print Papers</h3>
+            <ul class="conference"></ul>
+            <h3>Published Papers</h3>
+            <ul class="journal"></ul>
         </div> <!-- #full-list-publication -->
 
       <!-------------------------------  Other information -------------------------------------------->
-      <h2>Professional Activities</h2>
+      <h2 id="activities">Professional Activities</h2>
         <ul>
             <li>
                 <b>Journal Reviewer</b>:
@@ -178,7 +173,7 @@
         </ul>
       </ul>
 
-      <h2>Awards</h2>
+      <h2 id="awards">Awards</h2>
       <ul>
         <li>National Scholarship (Top 1%, 1st place), 2024</li>
         <li>China Scholarship Council (CSC) Scholarship，2023</li>
@@ -188,12 +183,12 @@
       </ul>
 
       <!-- <div class="content-container"> -->
-      <h2>Participated Research Projects</h2>
+      <h2 id="projects">Research Projects</h2>
       <ul>
-        <li>National Key Research and Development Program of China</li>
-        <li>Ministry of Education, Singapore, Academic Research Fund Grants</li>
-        <li>General Program of the National Natural Science Foundation of China (NSFC)</li>
-        <li>Young Scientists Fund of the National Natural Science Foundation of China (NSFC)</li>
+        <li>National Key Research and Development Program of China <span class="proj-role">(Participant)</span></li>
+        <li>Ministry of Education, Singapore, Academic Research Fund Grants <span class="proj-role">(Participant)</span></li>
+        <li>General Program of the National Natural Science Foundation of China (NSFC) <span class="proj-role">(Participant)</span></li>
+        <li>Young Scientists Fund of the National Natural Science Foundation of China (NSFC) <span class="proj-role">(Participant)</span></li>
       </ul>
 
       <div style="max-width: 25%; margin: 0 auto">
@@ -206,22 +201,11 @@
     <script src="publications.js"></script>
     <script type="text/javascript">
       $(function () {
-        loadPublications(data['publications'], data['fields'], data['author_links'], 'Chaofeng Chen');
+        loadPublications(data['publications'], data['fields'], data['author_links'], 'Haihong Xiao');
       })
     </script>
     <script type="text/javascript">
-      $('li:nth-child(1)', '#publication-switch').on('click', function () {
-        $('li:nth-child(2) > a', '#publication-switch').removeClass('disabled')
-        $('li:nth-child(1) > a', '#publication-switch').addClass('disabled')
-        $('#full-list-publication').hide()
-        $('#highlight-publication').show()
-      })
-      $('li:nth-child(2)', '#publication-switch').on('click', function () {
-        $('li:nth-child(1) > a', '#publication-switch').removeClass('disabled')
-        $('li:nth-child(2) > a', '#publication-switch').addClass('disabled')
-        $('#highlight-publication').hide()
-        $('#full-list-publication').show()
-      })
+      // Publication view toggle removed: only the full list is shown.
     </script>
     <script>
       function loadPublications(publications, fields, author_links, fullName) {
@@ -257,53 +241,39 @@
 
           // Highlights
           if ("highlight" in p && p['highlight']) {
-            let imgHtml = '<img src="' + p['img'] + '" alt="Highlight">';
-            if ('img-overlay' in p) {
-              imgHtml += '<div class="overlay transparent"><img src="' + p['img-overlay'] + '"></div>';
-            }
+            let linkRow =
+              `${p['pdf'] ? '<a href="' + p['pdf'] + '" target="_blank" class="pub-link">[PDF]</a>' : ''}` +
+              `${p['arxiv'] ? '<a href="' + p['arxiv'] + '" target="_blank" class="pub-link"><i class="ai ai-arxiv"></i> arXiv</a>' : ''}` +
+              `${p['github'] ? '<a href="' + p['github'] + '" target="_blank"><img class="imgbadge" src="https://img.shields.io/github/stars/' + p['github'].split('/').slice(-2).join('/') + '?style=social"></a>' : ''}` +
+              `${p['project'] ? '<a href="' + p['project'] + '" target="_blank"><img class="prjbadge" src="https://img.shields.io/badge/Project-' + p['project'].split('/').slice(-2).join('') + '-e9f1f6?style=flat-square"></a>' : ''}`;
+
             $('#highlight-publication ul.' + dest).append(
-              `<li>
-                      <div class="hflex-container" id="paper">
-                        <table>
-                          <tr>
-                            <td rowspan="4" class="imgtd">
-                              <img src="${p['img']}">
-                            </td>
-                            <td>
-                              <p class="title">${p['title']}</p>
-                            </td>
-                          </tr>
-                          <tr><td>
-                             ${p['authors'].replace(fullName, '<b>' + fullName + '</b>')}
-                          </td></tr>
-                          <tr><td>
-                              <p class="venue">${p[dest]}, ${p['year']}</p> 
-                          </td></tr>
-                          <tr><td>
-                              ${p['pdf'] ? '<a href="' + p['pdf'] + '" target="_blank">[PDF]</a>' : ''}
-                              ${p['arxiv'] ? '<a href="' + p['arxiv'] + '" target="_blank" class="btn mybtn" role="button"><i class="ai ai-arxiv"></i>  arXiv</a>' : ''}
-                              ${p['github'] ? '<a href="' + p['github'] + '" target="_blank"><img class="imgbadge" src="https://img.shields.io/github/stars/' + p['github'].split('/').slice(-2).join('/') + '?style=social"></a>' : ''}
-                              ${p['project'] ? '<a href="' + p['project'] + '" target="_blank"><img class="prjbadge" src="https://img.shields.io/badge/Project-' + p['project'].split('/').slice(-2).join('') + '-e9f1f6?style=flat-square"></a>' : ''}
-                          </td></tr>
-                        </table>
-                      </div>
-                    </li>
-                    `
+              `<li class="pub-item">
+                 <p class="pub-title">${p['title'].trim()}</p>
+                 <p class="pub-authors">${p['authors'].replace(fullName, '<b>' + fullName + '</b>')}</p>
+                 <p class="pub-venue">${p[dest].trim() ? p[dest] + ', ' : 'arXiv Preprint, '}${p['year']}</p>
+                 ${linkRow.trim() ? '<p class="pub-links">' + linkRow + '</p>' : ''}
+               </li>
+               `
             );
           }
           // Full List
-
-          if ("highlight" in p && p['highlight']) {
-            $('#full-list-publication ol.' + dest).append(
-              `<li class="full-list-itemhl">"${p['title']}." <em>${p['authors'].replace(fullName, '<strong>' + fullName + '</strong>')}.</em> ${p[dest]}, ${p['year']}. ${p['impact_factor'] ? '(IF = ' + p['impact_factor'] + ')' : ''} ${p['note'] || ''} <ul class="full-list">${links}</ul>
-                    </li>
-                    `
-            );
-          } else {
-            $('#full-list-publication ol.' + dest).append(
-              `<li class="full-list-item">"${p['title']}." <em>${p['authors'].replace(fullName, '<strong>' + fullName + '</strong>')}.</em> ${p[dest]}, ${p['year']}. ${p['impact_factor'] ? '(IF = ' + p['impact_factor'] + ')' : ''} ${p['note'] || ''} <ul class="full-list">${links}</ul>
-                    </li>
-                    `
+          {
+            let fullVenue = `${p[dest].trim() ? p[dest] + ', ' : 'arXiv Preprint, '}${p['year']}.`;
+            let extra = `${p['impact_factor'] ? ' (IF = ' + p['impact_factor'] + ')' : ''} ${p['note'] || ''}`;
+            let hlClass = ("highlight" in p && p['highlight']) ? ' pub-item-hl' : '';
+            // Inline links appended to the venue line (keeps every entry at 3 lines)
+            let inlineLinks = '';
+            for (let f in fields) {
+              if (p[f]) inlineLinks += ` <a href="${p[f]}" target="_blank" class="pub-link">[${fields[f]}]</a>`;
+            }
+            $('#full-list-publication ul.' + dest).append(
+              `<li class="pub-item${hlClass}">
+                 <p class="pub-title">${p['title'].trim()}</p>
+                 <p class="pub-authors">${p['authors'].replace(fullName, '<b>' + fullName + '</b>')}</p>
+                 <p class="pub-venue">${fullVenue}${extra}<span class="pub-links">${inlineLinks}</span></p>
+               </li>
+               `
             );
           }
         }

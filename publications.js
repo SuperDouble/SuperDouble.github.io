@@ -129,36 +129,37 @@ var data = {
             "year": 2025,
             "github": "https://github.com/SCUT-BIP-Lab/SplatCo",
         },
-         {
-             "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
-             "authors": "Jianlin Guo, Haihong Xiao, Wenxiong Kang",
-             "conference": " ",
-             "arxiv": "https://arxiv.org/abs/2505.10787",
-             "year": 2025,
-            //  "github": "https://github.com/SCUT-BIP-Lab/EA-3DGS",
-         },
-        {
-            "title": "3D Scene Graph Guided Vision-Language Pre-training",
-            "authors": "Hao Liu, Yanni Ma, Yan Liu, Haihong Xiao, Ying He",
-            "year": 2024,
-            "conference": " ",
-            "arxiv": "https://arxiv.org/pdf/2411.18666",
-            "github": "",
-        },
-        {
-            "title": "Point Cloud Unsupervised Pre-training via 3D Gaussian Splatting",
-            "authors": "Hao Liu, Minglin Chen, Yanni Ma, Haihong Xiao, Ying He",
-            "year": 2024,
-            "conference": " ",
-            "arxiv": "https://arxiv.org/pdf/2411.18667",
-            "github": "",
-        }
+        // --- Temporarily hidden preprints ---
+        //  {
+        //      "title": "EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes",
+        //      "authors": "Jianlin Guo, Haihong Xiao, Wenxiong Kang",
+        //      "conference": " ",
+        //      "arxiv": "https://arxiv.org/abs/2505.10787",
+        //      "year": 2025,
+        //     //  "github": "https://github.com/SCUT-BIP-Lab/EA-3DGS",
+        //  },
+        // {
+        //     "title": "3D Scene Graph Guided Vision-Language Pre-training",
+        //     "authors": "Hao Liu, Yanni Ma, Yan Liu, Haihong Xiao, Ying He",
+        //     "year": 2024,
+        //     "conference": " ",
+        //     "arxiv": "https://arxiv.org/pdf/2411.18666",
+        //     "github": "",
+        // },
+        // {
+        //     "title": "Point Cloud Unsupervised Pre-training via 3D Gaussian Splatting",
+        //     "authors": "Hao Liu, Minglin Chen, Yanni Ma, Haihong Xiao, Ying He",
+        //     "year": 2024,
+        //     "conference": " ",
+        //     "arxiv": "https://arxiv.org/pdf/2411.18667",
+        //     "github": "",
+        // }
     ],
     "fields":
     {
-        "arxiv": "arxiv",
+        "arxiv": "arXiv",
         "pdf": "PDF",
-        "github": "Github",
+        "github": "GitHub",
     },
     "author_links":
     {

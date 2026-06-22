@@ -1,8 +1,11 @@
 body {
      margin:         auto;
      background-color: #eee;
+     font-family: Georgia, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
      font-size:      12pt;
+     line-height:    1.6;
 	   padding-left:   5pt;
+     color: #222;
 }
 
 h1   {
@@ -12,10 +15,13 @@ h1   {
 }
 
 h2   {
+     font-family: Georgia, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
      font-size:      17pt;
      font-style:     normal;
-     /* border-bottom: solid 1px #A9A9A9; */
-     color: Brown;
+     font-weight:    600;
+     border-bottom: solid 1px #ddd;
+     padding-bottom: 3px;
+     color: #800000;
 }
 
 h3 {
@@ -111,7 +117,6 @@ hr {
   padding: 15px;
   border: 2px solid #ffcc00;
   border-radius: 8px;
-  font-family: Arial, sans-serif;
   margin-bottom: 15px;
 }
 
@@ -168,23 +173,12 @@ div.news:hover::-webkit-scrollbar-track {
     list-style-type: none; /* Remove default list bullets */
     display: inline; /* Display list items inline */
     padding: 0px; /* Remove default padding */
-    margin-left: 0px;
+    margin: 0px; /* Remove default vertical margins */
 }
 
 .full-list li {
     display: inline; /* Display list items inline */
     margin-bottom: 3px;
-}
-
-.full-list-item {
-    margin-bottom: 5px; /* Add some space between items */
-    line-height: 1.5;
-}
-
-.full-list-itemhl {
-    margin-bottom: 5px; /* Add some space between items */
-    line-height: 1.5;
-    background-color: rgba(255, 255, 0, 0.197);
 }
 
 /*  Education and Experience styles
@@ -225,7 +219,10 @@ div.news:hover::-webkit-scrollbar-track {
 /*  Paper styles
     FontAwesome reference: http://astronautweb.co/snippet/font-awesome/
 --------------------------------------*/
-#highlight-publication ul {
+#highlight-publication ul,
+#full-list-publication ul.journal,
+#full-list-publication ul.conference,
+#full-list-publication ul.preprint {
 	padding: 0;
 	list-style: none;
 }
@@ -364,4 +361,136 @@ div.news:hover::-webkit-scrollbar-track {
   font-style: italic;
   color: gray;
   margin: 5 5 5 5;
+}
+
+/*  Text-based publication list (Selected Papers)
+--------------------------------------*/
+#highlight-publication h3,
+#full-list-publication h3 {
+  color: #800000;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-bottom: 6px;
+}
+
+.pub-item {
+  position: relative;
+  padding: 10px 4px 10px 22px;
+  border-bottom: 1px solid #ececec;
+  line-height: 1.5;
+}
+
+.pub-item::before {
+  content: "\f0f6"; /* paper icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 2px;
+  top: 11px;
+  color: #b0b0b0;
+  font-size: 10pt;
+}
+
+/* Full List shares the same icon-bullet template as Selected Papers */
+.pub-item-hl {
+  background-color: transparent;
+}
+
+.pub-title {
+  margin: 0 0 3px 0;
+  font-family: Georgia, "Times New Roman", "Liberation Serif", serif;
+  font-size: 12pt;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 0.2px;
+}
+
+.pub-authors {
+  margin: 0 0 2px 0;
+  font-family: Georgia, "Times New Roman", "Liberation Serif", serif;
+  font-size: 10.5pt;
+  color: #444;
+}
+
+.pub-authors b {
+  color: #800000;
+}
+
+.pub-venue {
+  margin: 0 0 2px 0;
+  font-family: Georgia, "Times New Roman", "Liberation Serif", serif;
+  font-size: 10.5pt;
+  font-style: italic;
+  color: #333;
+}
+
+.pub-links {
+  margin: 4px 0 0 0;
+}
+
+/* Inline link group on the venue line (full list) */
+.pub-venue .pub-links {
+  margin: 0;
+  font-style: normal;
+}
+
+.pub-links .pub-link {
+  font-size: 9.5pt;
+  font-weight: bold;
+  color: #1a5276;
+  margin-right: 8px;
+}
+
+.pub-links .imgbadge {
+  max-height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.pub-links .prjbadge {
+  max-height: 18px;
+  vertical-align: middle;
+}
+
+/* Inline section navigation (single row under intro)
+--------------------------------------*/
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 4px;
+  margin: 16px 0 4px 0;
+  padding: 8px 0;
+  border-top: 1px solid #e3d3d3;
+  border-bottom: 1px solid #e3d3d3;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.section-nav a {
+  color: #800000;
+  text-decoration: none;
+  font-size: 11pt;
+  font-weight: 600;
+  padding: 2px 10px;
+  transition: color 0.15s;
+}
+
+.section-nav a:not(:last-child) {
+  border-right: 1px solid #d8c4c4;
+}
+
+.section-nav a:hover {
+  color: #b30000;
+  text-decoration: underline;
+}
+
+/* offset anchor jumps for a small breathing gap */
+#news, #publications, #activities, #awards, #projects {
+  scroll-margin-top: 16px;
+}
+
+.proj-role {
+  color: #800000;
+  font-style: italic;
+  font-size: 0.9em;
 }
