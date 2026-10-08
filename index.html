@@ -284,11 +284,20 @@
           if (p[f]) inlineLinks += ` <a href="${p[f]}" target="_blank" class="pub-link">[${fields[f]}]</a>`;
         }
 
+        // Build publication item with image
+        let imageHtml = '';
+        if (p['img']) {
+          imageHtml = `<div class="pub-image"><img src="${p['img']}" alt="${p['title']}"></div>`;
+        }
+
         $('#full-list-publication ul.' + dest).append(
           `<li class="pub-item${hlClass}">
-             <p class="pub-title">${p['title'].trim()}</p>
-             <p class="pub-authors">${p['authors'].replace(fullName, '<b>' + fullName + '</b>')}</p>
-             <p class="pub-venue">${fullVenue}${extra}<span class="pub-links">${inlineLinks}</span></p>
+             ${imageHtml}
+             <div class="pub-content">
+               <p class="pub-title">${p['title'].trim()}</p>
+               <p class="pub-authors">${p['authors'].replace(fullName, '<b>' + fullName + '</b>')}</p>
+               <p class="pub-venue">${fullVenue}${extra}<span class="pub-links">${inlineLinks}</span></p>
+             </div>
            </li>`
         );
       }

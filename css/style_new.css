@@ -75,7 +75,7 @@ body {
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -128,7 +128,7 @@ body {
    Main Wrapper
    ======================================== */
 .main-wrapper {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 5rem 2rem 2rem;
 }
@@ -139,8 +139,8 @@ body {
 .section {
   background: var(--bg-white);
   border-radius: 12px;
-  padding: 2.5rem;
-  margin-bottom: 2rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition-medium), box-shadow var(--transition-medium);
 }
@@ -154,8 +154,8 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--accent-color);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
   border-bottom: 3px solid var(--accent-color);
   display: flex;
   align-items: center;
@@ -184,8 +184,8 @@ body {
    ======================================== */
 .profile-header {
   display: flex;
-  gap: 3rem;
-  margin-bottom: 2rem;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
   align-items: flex-start;
 }
 
@@ -303,26 +303,26 @@ body {
    Bio Section
    ======================================== */
 .bio-section {
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
 }
 
 .bio-content p {
   font-size: 1.05rem;
   line-height: 1.8;
   text-align: justify;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--text-dark);
 }
 
 .bio-en {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .bio-cn {
   font-family: var(--font-serif);
   color: var(--text-medium);
   border-top: 2px dashed var(--border-light);
-  padding-top: 0.75rem;
+  padding-top: 0.5rem;
 }
 
 /* ========================================
@@ -332,8 +332,8 @@ body {
   background: linear-gradient(135deg, #fff9e6 0%, #fffbf0 100%);
   border: 2px solid #ffd700;
   border-radius: 10px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
+  padding: 1.2rem;
+  margin: 1.2rem 0;
   box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
 }
 
@@ -458,38 +458,70 @@ body {
 
 .pub-item {
   position: relative;
-  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
-  margin-bottom: 1rem;
-  background: var(--bg-light);
-  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  background: #f9f9f9;
+  border-radius: 6px;
   border-left: 4px solid var(--accent-light);
   transition: all var(--transition-fast);
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
 .pub-item:hover {
   background: #f0f0f0;
-  transform: translateX(3px);
-  box-shadow: var(--shadow-sm);
+  transform: translateX(2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 .pub-item::before {
-  content: "\f15c";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  position: absolute;
-  left: 0.75rem;
-  top: 1.4rem;
-  color: var(--accent-color);
-  font-size: 1rem;
+  display: none;
 }
 
 .pub-item-hl {
-  background: #fff8e1;
-  border-left-color: #ffa000;
+  background: #f5f5f5;
+  border-left-color: var(--accent-light);
+}
+
+/* Publication image */
+.pub-image {
+  flex-shrink: 0;
+  width: 200px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  transition: transform var(--transition-medium);
+}
+
+.pub-item:hover .pub-image {
+  border-color: #b0b0b0;
+}
+
+.pub-item:hover .pub-image img {
+  transform: scale(1.02);
+}
+
+/* Publication content */
+.pub-content {
+  flex: 1;
+  min-width: 0;
 }
 
 .pub-title {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.4rem 0;
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--text-dark);
@@ -497,7 +529,7 @@ body {
 }
 
 .pub-authors {
-  margin: 0 0 0.4rem 0;
+  margin: 0 0 0.3rem 0;
   font-size: 0.95rem;
   color: var(--text-medium);
   line-height: 1.5;
@@ -546,7 +578,7 @@ body {
    Activities Section
    ======================================== */
 .activity-group {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .activity-subtitle {
@@ -569,10 +601,10 @@ body {
 }
 
 .activity-list li {
-  padding: 0.6rem 0 0.6rem 1.5rem;
+  padding: 0.5rem 0 0.5rem 1.5rem;
   position: relative;
   color: var(--text-medium);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .activity-list li::before {
@@ -593,9 +625,9 @@ body {
 
 .award-list li {
   display: flex;
-  gap: 2rem;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
   background: #f5f5f5;
   border-radius: 10px;
   border-left: 4px solid var(--accent-color);
@@ -640,8 +672,8 @@ body {
 }
 
 .project-list li {
-  padding: 1rem;
-  margin-bottom: 0.75rem;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
   background: var(--bg-light);
   border-left: 4px solid var(--accent-color);
   border-radius: 6px;
