@@ -393,12 +393,13 @@ body {
 }
 
 .news-list li {
-  padding: 1rem;
-  margin-bottom: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.4rem;
   background: var(--bg-light);
   border-left: 4px solid var(--accent-color);
   border-radius: 6px;
   transition: all var(--transition-fast);
+  line-height: 1.4;
 }
 
 .news-list li:hover {
@@ -410,11 +411,11 @@ body {
   display: inline-block;
   background: var(--accent-color);
   color: white;
-  padding: 0.25rem 0.75rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  margin-right: 0.75rem;
+  margin-right: 0.6rem;
   font-family: var(--font-sans);
 }
 
@@ -458,15 +459,23 @@ body {
 
 .pub-item {
   position: relative;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 2.5rem;
   margin-bottom: 0.8rem;
   background: #f9f9f9;
   border-radius: 6px;
   border-left: 4px solid var(--accent-light);
   transition: all var(--transition-fast);
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
+}
+
+.pub-item::before {
+  content: "\f15c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.75rem;
+  top: 1.2rem;
+  color: var(--accent-color);
+  font-size: 1rem;
 }
 
 .pub-item:hover {
@@ -476,7 +485,14 @@ body {
 }
 
 .pub-item::before {
-  display: none;
+  content: "\f15c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.75rem;
+  top: 1.2rem;
+  color: var(--accent-color);
+  font-size: 1rem;
 }
 
 .pub-item-hl {
@@ -484,34 +500,9 @@ body {
   border-left-color: var(--accent-light);
 }
 
-/* Publication image */
+/* Publication image - HIDDEN VERSION */
 .pub-image {
-  flex-shrink: 0;
-  width: 200px;
-  height: 130px;
-  overflow: hidden;
-  border-radius: 4px;
-  border: 1px solid #d0d0d0;
-  background: #fafafa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pub-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding: 8px;
-  transition: transform var(--transition-medium);
-}
-
-.pub-item:hover .pub-image {
-  border-color: #b0b0b0;
-}
-
-.pub-item:hover .pub-image img {
-  transform: scale(1.02);
+  display: none;
 }
 
 /* Publication content */
@@ -625,11 +616,11 @@ body {
 
 .award-list li {
   display: flex;
-  gap: 1.5rem;
-  padding: 1rem;
-  margin-bottom: 0.75rem;
+  gap: 1rem;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 0.4rem;
   background: #f5f5f5;
-  border-radius: 10px;
+  border-radius: 8px;
   border-left: 4px solid var(--accent-color);
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-fast);
@@ -654,8 +645,14 @@ body {
 .award-content {
   flex: 1;
   color: var(--text-dark);
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.award-cn {
+  color: var(--text-medium);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
 }
 
 .award-content strong {

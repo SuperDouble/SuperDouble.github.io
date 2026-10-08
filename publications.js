@@ -20,6 +20,12 @@ var data = {
         "year": 2026,
         },
         {
+        "title": "Holistic 3D Scene Reconstruction with Mamba and Implicit Neural Representation",
+        "authors": "Juan An, Zhaoshui He, Haihong Xiao, Jing Guo, Zhijie Lin, Wenqing Su, Ji Tan",
+        "journal": "IEEE Transactions on Multimedia (<b>TMM, CCF-A</b>), Accepted, September",
+        "year": 2026,
+        },
+        {
         "img": "images_output/tvcg_geosem.png",
         "title": "Geometry-Semantics Co-Regularization for Gaussian Splatting in Indoor Reconstruction",
         "authors": "Haihong Xiao, Jianan Zou, Yanan Zhang, Wenxiong Kang, Ying He, Wei Jia",
@@ -87,6 +93,14 @@ var data = {
             "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>), 34(12):12127-12141, December",
             "year": 2024,
             // "pdf": "https://ieeexplore.ieee.org/document/10601197",
+        },
+        {
+            "img": "images_output/tcsvt_dmnet.png",
+            "title": "Distinguishing and Matching-Aware Unsupervised Point Cloud Completion",
+            "authors": "Haihong Xiao, Yuqiong Li, Wenxiong Kang, Qiuxia Wu",
+            "journal": "IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>), 33(9):5160-5173, September",
+            "year": 2023,
+            // "pdf": "https://ieeexplore.ieee.org/document/10056970",
         },
         {
             "img": "images_output/iccv_pdc.jpg",
